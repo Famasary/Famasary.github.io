@@ -1,0 +1,63 @@
+@font-face{
+    font-family:Offerings;
+    src: url(fonts/OfferingsRegular.otf)
+}
+body{
+    background-image: url(images/stop.jpg);
+    background-size: 100%;
+    background-color: #34373d;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+h1{
+    font-family: "Offerings", sans-serif;
+}
+#nav {
+    list-style-type: none;
+    margin: -8px;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+#nav li {
+    float: left
+}
+#nav li a {
+    display: block;
+    color: grey;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+@font-face{
+    font-family:Roboto;
+    src: url(fonts/Roboto-Condensed.ttf)
+}
+#nav{
+    font-family: "Roboto", sans-serif;
+}
+#nav li a:hover {
+    background-color: gray;
+    color: black;
+}
+#nav li a {
+    display: block;
+    color: grey;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+#nav li {
+    float: left
+}
+#links .bottomleft {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    font-size: 18px;
+}
+#linkss .bottom {
+    position: absolute;
+    bottom: 8px;
+    font-size: 18px;
+}
